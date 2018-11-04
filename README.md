@@ -52,4 +52,7 @@
 			* git stash pop
 				* restore the spot
 				* semontaneously delete the spot in the list
-
+* A branch without merged will raise an error if you want delete it via parameter -d
+	*solution:
+		* using parameter -D to forcely delete it
+		* git branch -D branchname
