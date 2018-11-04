@@ -1,0 +1,2 @@
+you can get another branch in local git repository if you use:
+git checkout -b local_branch_name origin/branch_name
