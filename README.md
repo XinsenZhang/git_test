@@ -11,3 +11,6 @@
 	* push just push the file, including all the branches, master etc
 	* using git checkout -- filename can recover the file from stage
 	* now what you should do is to get how to recover from git repository
+		* with the command
+			* git reset HEAD filename 
+
