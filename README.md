@@ -40,3 +40,16 @@
 		* point:
 			* maintain the log on the merging branch
 			* simutanously commit, which implies the parameter -m
+
+* What if you are working on branch dev, but you are assigned to work on a bug, named  issure-101
+	* store the spot where your work lies on, using the command 
+		* git stash
+	* using git stash list to get the list of stash
+	* two method to restore the content storage in stash
+		* using git stash apply
+			* after then, using git stash drop to delete the stashed spot in the stash list
+		* another method is to use
+			* git stash pop
+				* restore the spot
+				* semontaneously delete the spot in the list
+
